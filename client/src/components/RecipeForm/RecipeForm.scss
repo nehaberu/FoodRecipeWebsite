@@ -1,0 +1,130 @@
+/* This is the right section */
+
+#recipes-right {
+    background-color: white;
+    border: 1px #000000 dashed;
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-right: 100px;
+    overflow: hidden;
+
+    @media screen and (max-width: '480px') {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #recipes-form-holder {
+        text-align: center;
+        font-style: italic;
+        font-size: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        #form-title {
+            margin-top: 20px;
+            border: 1px black solid;
+            border-radius: 5px;
+            width: 60%;
+            padding: 5px;
+            font-style: italic;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            @media screen and (max-width: '480px') {
+                width: 90%;
+            }
+        }
+        
+        #form-image {
+            padding: 10px 0 20px 0;
+            width: 60%;
+            font-style: italic;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            @media screen and (max-width: '480px') {
+                width: 90%;
+            }
+        }
+        
+        #form-duration {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px black solid;
+            border-radius: 5px;
+            width: 60%;
+            padding: 5px;
+            font-style: italic;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            @media screen and (max-width: '480px') {
+                width: 90%;
+            }
+        }
+        
+        #form-steps {
+            width: 60%;
+            border-radius: 5px;
+            padding: 5px;
+            font-style: italic;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            @media screen and (max-width: '480px') {
+                width: 90%;
+            }
+        }
+        
+        #form-rating {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px black solid;
+            border-radius: 5px;
+            width: 60%;
+            padding: 5px;
+            font-style: italic;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            @media screen and (max-width: '480px') {
+                width: 90%;
+            }
+        }
+        
+        #form-button {
+            display: block;
+            margin: 10px auto;
+            padding: 7px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #EB6864;
+            border: 0;
+            cursor: pointer;
+            font-style: italic;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    
+    /* This is the message section */
+    
+    #message {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightcoral;
+        width: 400px;
+        height: 200px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    /* The End */
+}
+
+/* The End */

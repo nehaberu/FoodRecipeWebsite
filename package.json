@@ -1,0 +1,41 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "Basic Recipe App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Server/server.js",
+    "Server": "nodemon Server/server.js",
+    "Client": "cd client && npm start",
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisJonathan22/Recipe-App.git"
+  },
+  "author": "Chris Jonathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisJonathan22/Recipe-App/issues"
+  },
+  "homepage": "https://github.com/ChrisJonathan22/Recipe-App#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.12",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.6",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
+  }
+}

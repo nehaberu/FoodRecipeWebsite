@@ -1,0 +1,99 @@
+/* Recipe preview */
+#recipe_preview_container {
+    text-align: center;
+    padding-bottom: 25px;
+    border: 1px black dotted;
+    width: 500px;
+    margin: 50px auto;
+    position: relative;
+    background-color: rgb(243, 70, 98);
+
+    @media screen and (max-width: '480px') {
+        width: 90% !important;
+    }
+
+    .recipe_info {
+        color: #0c0506;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 120%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .recipe_content {
+        color: #000;
+        font-style: italic;
+        font-size: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .recipe_title {
+        background-color: rgb(250, 156, 170);
+        color: #000;
+        height: 100px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: italic;
+        font-size: 200%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        @media screen and (max-width: '480px') {
+            font-size: 2em;
+        }
+    }
+
+    .clear_title {
+        height: 100px;
+    }
+
+    img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 230px;
+        width: 210px;
+
+        @media screen and (max-width: '480px') {
+            width: 50%;
+        }
+    }
+
+    p {
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #stars_outer {
+        position: relative;
+        display: none;
+
+        &::before {
+            content: "\f005 \f005 \f005 \f005 \f005";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            color: #CCC;
+        }
+
+        #stars_inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+
+            &::before {
+                content: "\f005 \f005 \f005 \f005 \f005";
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                color: #f8ce0b;
+            }
+        }
+    }
+}
+/* The End */
